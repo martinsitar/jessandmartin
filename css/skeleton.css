@@ -41,6 +41,25 @@
   float: left;
   box-sizing: border-box; }
 
+.background {
+  /* The image used */
+    background-image: url("../images/bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wedding-styles {
+  text-align: center;
+  color: #fff;
+}
+
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
