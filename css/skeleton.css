@@ -43,7 +43,7 @@
 
 .background {
   /* The image used */
-    background-image: url("../images/bg.png");
+  background-image: url("../images/bg.png");
 
     /* Full height */
     height: 100%;
@@ -53,12 +53,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.wedding-styles {
-  text-align: center;
-  color: #fff;
-}
-
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -420,7 +414,6 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-
 
 /* Larger than mobile */
 @media (min-width: 400px) {}

@@ -1,0 +1,60 @@
+.section-sp {
+  padding: 15rem 0rem 0rem 0rem;
+}
+
+.space {
+  padding: 5rem 0;
+}
+
+.navbar {
+position: absolute;
+text-align: center;
+}
+
+.wedding-styles {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.hide-on-mob {
+  display: none;
+}
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .hide-on-mob {
+    display: block;
+  }
+}
+
+/* Navbar */
+.navbar + .docs-section {
+border-top-width: 0; }
+.navbar,
+.navbar > .container {
+width: 100%; }
+.navbar-list {
+list-style: none;
+margin-bottom: 0;
+display: inline-block;}
+.navbar-item {
+position: relative;
+float: left;
+margin-bottom: 0; }
+.navbar-link {
+text-transform: uppercase;
+font-size: 11px;
+font-weight: 600;
+letter-spacing: .2rem;
+margin-right: 35px;
+text-decoration: none;
+line-height: 6.5rem;
+color: #fff;
+display:inline-block;
+padding:10px;}
+.navbar-link.active {
+color: #33C3F0; }
