@@ -23,11 +23,17 @@ text-align: center;
   display: none;
 }
 
+.hide-on-lg {
+  display: block;
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .hide-on-mob {
     display: block;
+  }
+  .hide-on-lg {
+    display: none;
   }
 }
 
